@@ -1,0 +1,47 @@
+
+   
+
+                                        User (8082)
+  
+  //--------------------- inserting the data ----------------------------
+  
+     POST         /api/user
+     
+     {
+      "name": "rajesh",
+      "username": "raj",
+      "email": "raj@gmail.com",
+      "phone": "1234",
+      "password": "12345"
+     }
+     
+ //------------------------------ fetching the data for particular user ------------
+     
+      GET  /api/user/6
+      
+//------------------------------  updating the data ---------------
+      
+        PUT         /api/user/6
+     
+    {
+      "name": "Shubham",
+      "username": "shubham123",
+      "email": "shubham@gmail.com",
+      "phone": "1234",
+      "password": "12345"
+    }
+    
+//--------------------------  deleting the data --------------------------------
+
+    DELETE  /api/user/7
+    
+//--------------------------  fetching the data for all user ---------------------------------
+    
+        (all data)
+        
+        GET  /api/users
+        
+ //--------------------------------------------------------       
+      
+      
+     

@@ -1,0 +1,47 @@
+
+   
+
+                                   admin (8081)
+                                   
+  //--------------------- inserting the data ----------------------------
+  
+     POST         /api/admin
+     
+     {
+      "name": "rajesh",
+      "username": "raj",
+      "email": "raj@gmail.com",
+      "phone": "1234",
+      "password": "12345"
+     }
+     
+ //------------------------------ fetching the data for particular admin ------------
+     
+      GET  /api/admin/6
+      
+//------------------------------  updating the data ---------------
+      
+        PUT         /api/admin/6
+     
+    {
+      "name": "Shubham",
+      "username": "shubham123",
+      "email": "shubham@gmail.com",
+      "phone": "1234",
+      "password": "12345"
+    }
+    
+//--------------------------  deleting the data --------------------------------
+
+    DELETE  /api/admin/7
+    
+//--------------------------  fetching the data for all admin ---------------------------------
+    
+        (all data)
+        
+        GET  /api/admins
+        
+ //--------------------------------------------------------       
+      
+      
+     
